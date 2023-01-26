@@ -62,7 +62,7 @@
     {\endoldenumerate\end{spacing}}
 
 % Text layout.
-\RequirePackage[width=5.75in, letterpaper]{geometry}
+\RequirePackage[margin=1in, letterpaper]{geometry}
 \usepackage{ragged2e}
 \RaggedRight
 \RequirePackage{graphicx}
@@ -120,7 +120,7 @@
 
 % References.
 \renewcommand\bibname{References}
-\RequirePackage[super,comma,numbers]{natbib}
+\RequirePackage[square,comma,numbers]{natbib}
 \renewcommand{\bibnumfmt}[1]{[#1]}
 \RequirePackage[palatino]{quotchap}
 \renewcommand*{\chapterheadstartvskip}{\vspace*{-0.5\baselineskip}}
@@ -291,7 +291,7 @@
     \clearpage
     \bibliography{references}
     \addcontentsline{toc}{chapter}{References}
-    \bibliographystyle{apalike2}
+    \bibliographystyle{abbrv}
     \include{endmatter/colophon}
 }
 
